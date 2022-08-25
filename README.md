@@ -8,12 +8,12 @@ if your phone is 4GB ram i recommend minecraft server 1.12
 only works if you are on the same network unless you setup your router firewall (not covere covered here)
 
 <h1>Overall steps : </h1>
-0. settings up your phone ip as static 
-1. setup your ssh to connect from your laptop for easy copy paste (optional)
-2. Get termux to run on phone boot (optional)
-3. installing java 
-4. installing minecraft server 
-5. seting up startup on boot 
+0. settings up your phone ip as static <br>
+1. setup your ssh to connect from your laptop for easy copy paste (optional) <br>
+2. Get termux to run on phone boot (optional)<br>
+3. installing java <br>
+4. installing minecraft server <br>
+5. seting up startup on boot <br>
 
 <h2>step 0 :</h2>
 in your device :  settings > connections > wifi > press on your wifi > advanced > ip settings > set to static > copy your ip to use it later ex: 192.168.1.105
