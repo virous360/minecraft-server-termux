@@ -19,8 +19,15 @@ only works if you are on the same network unless you setup your router firewall 
 in your device :  settings > connections > wifi > press on your wifi > advanced > ip settings > set to static > copy your ip to use it later ex: 192.168.1.105
 
 <h2>step 1 :</h2>
-new github repository comming soon 
-
+1. change your account password:
+``` shell 
+passwd
+```
+2. run this in termux 
+``` shell
+pkg upgrade
+pkg install openssh
+```
 <h2>step 2 :</h2>
 1. Install the Termux:Boot app.
 
