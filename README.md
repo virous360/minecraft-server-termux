@@ -20,14 +20,35 @@ in your device :  settings > connections > wifi > press on your wifi > advanced 
 
 <h2>step 1 :</h2>
 1. change your account password:
-``` shell 
+
+``` shell
 passwd
 ```
+
 2. run this in termux 
 ``` shell
 pkg upgrade
 pkg install openssh
+ssh-keygen
 ```
+
+3. press enter 3 times 
+
+4. get your username
+``` shell
+whoami
+``` 
+ex output : u0_a166
+
+5. ssh command syntax (you need to be on the same network) 
+Notes : 
+  run this command on your laptop, not termux.
+  replace u0_a166 with the output from last step
+  replace the ip with your ip from step 0 
+``` shell
+ssh u0_a166@192.168.1.105  -p8022
+```
+
 <h2>step 2 :</h2>
 1. Install the Termux:Boot app.
 
