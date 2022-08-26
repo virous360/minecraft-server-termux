@@ -65,6 +65,10 @@ cd ~/.termux/boot/
 ``` shell
 wget -O 1-runsshd.sh https://raw.githubusercontent.com/virous360/minecraft-server-termux/main/1-runsshd.sh 
 ``` 
+6. setup minecraft server to start on boot : 
+``` shell
+wget -O 2-start_server.sh https://raw.githubusercontent.com/virous360/minecraft-server-termux/main/start_server.sh
+```
 
 <h2>step 3 :</h2>
 
@@ -88,16 +92,16 @@ wget 'your-link' -O minecraft-server.jar
 ```
 5.
 ``` shell
-mkdir minecraft 
+mkdir minecraft-server
 chmod +x minecraft-server.jar
-mv minecraft-server.jar minecraft 
+mv minecraft-server.jar minecraft-server
 wget -O start_server.sh https://raw.githubusercontent.com/virous360/minecraft-server-termux/main/start_server.sh
 chmod +x start_server.jar
 ./start_server.jar
 ```
 6. the server WILL crash... after that run this 
 ``` shell
-cd minecraft
+cd minecraft-server
 apt-get install nano
 nano eula.txt
 ```
